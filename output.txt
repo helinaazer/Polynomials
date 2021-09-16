@@ -1,0 +1,24 @@
+p1 = 4x^4 - 3.8x^3 + 2.2x^2 - 1x
+The coefficient of p1 at degree 3 is: -3.8
+The coefficient of p1 at degree 1 is: -1
+The coefficient of p1 at degree 5 is: 0
+The degree of p1 is: 4
+p1 = -3.8x^3 + 2.2x^2 - 1x + 1
+p2 = -3x^6 - 3.8x^3 + 2.2x^2 - 1x + 1
+p1 == p1 is True
+p1 == p2 is False
+p1 != p2 is True
+p2 != p2 is False
+p1 = -3x^6 - 3.8x^3 + 2.2x^2 - 1x + 1
+p2 = -3x^6 - 3.8x^3 + 2.2x^2 - 1x + 1
+p1 == p2 is True
+p3 = 7x^8 + 5x^6 - 2x^4 - 3.8x^3 + 2.2x^2 - 1x + 1
+p1 + p2 is -6x^6 - 7.6x^3 + 4.4x^2 - 2x + 2
+p1 - p2 is 0
+p3 - p2 is 7x^8 + 8x^6 - 2x^4
+The degree of p3 is 8
+p1 + p2 = -6x^6 - 7.6x^3 + 4.4x^2 - 2x + 2
+p1 is now: -6x^6 - 7.6x^3 + 4.4x^2 - 2x + 2
+p2 - p1 = 3x^6 + 3.8x^3 - 2.2x^2 + 1x - 1
+p2 is now: 3x^6 + 3.8x^3 - 2.2x^2 + 1x - 1
+The coefficient of p2 at degree 6 is: 3
